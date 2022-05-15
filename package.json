@@ -1,0 +1,21 @@
+{
+	"name": "restapi",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"license": "MIT",
+	"scripts": {
+		"start": "yarn nodemon index.js"
+	},
+	"dependencies": {
+		"koa": "^2.13.4",
+		"koa-bodyparser": "^4.3.0",
+		"koa-router": "^10.1.1"
+	},
+	"devDependencies": {
+		"@types/koa": "^2.13.4",
+		"@types/koa-bodyparser": "^4.3.7",
+		"@types/koa-router": "^7.4.4",
+		"nodemon": "^2.0.16"
+	}
+}
